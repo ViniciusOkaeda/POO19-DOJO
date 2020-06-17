@@ -10,6 +10,7 @@ namespace AULA19DOJOFIX2
             float newValor = IngressoPreco + valorAdicional;
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("O valor VIP é : {0:c}", newValor);
+            Console.ResetColor();
         }
     }
 }
